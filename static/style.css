@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:700&display=swap");
+
+*{
+    font-family: "Rubik", sans-serif;
+    
+}
+
+#data_div p{
+    padding: 1rem;
+    width: 97%;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+        0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    
+    border-left: 0 solid #00ff99;
+}
+
+#data_div button{
+    
+    display: inline-block;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 12px;
+    line-height: 20px;
+    height: 30px;
+    max-height: 30px;
+    background: #fff;
+    font-weight: 700;
+    border: 2px solid #DAE3F3;
+    border-radius: 0;
+    color: #272C34;
+    transition-timing-function: ease-in-out;
+    transition-property: box-shadow;
+    transition-duration: 150ms;
+    
+}
+#data_div button:hover {
+    box-shadow: 4px 4px 4px black;
+}
+#data_div button:active{
+    box-shadow: 2px 2px 2px black;
+    transform: translate(2px, 2px);
+}
+body {
+    background-color: #0099ff;
+}
+
+#title{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+}
